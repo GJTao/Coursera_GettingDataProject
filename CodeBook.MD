@@ -1,11 +1,11 @@
 ## Code Book
 
-The script run_analysis.R is to process the data in "UCI HAR Dataset" and output the data to "HAR_Summary.txt" at the working directory.
+The script *"run_analysis.R"* is to process the data in "UCI HAR Dataset" and output the data to "HAR_Summary.txt" at the working directory.
 
 ---
 ### UCI HAR Dataset
 
-Please check 'README.txt' in "UCI HAR Dataset" for the information of the files included in the dataset.
+Please check "README.txt" in "UCI HAR Dataset" for the information of the files included in the dataset.
 
 ---
 ### Data Processing
@@ -22,13 +22,13 @@ The following steps are taken to process the data:
 
 5. From the data set in step 4, creates a tidy data set with the average of each variable for each activity and each subject.
 
-__The details of these steps are described in the script run_analysis.R__
+__The details of these steps are described in the script *"run_analysis.R"*__
 
 ---
 
 ### Output File
 
-HAR_Summary.txt lists the average of the variables for each subject and activity. The dataset includes 180 rows and 88 columns.
+*"HAR_Summary.txt"* lists the average of the variables for each subject and activity. The dataset includes 180 rows and 88 columns.
 
 ---
 
@@ -62,13 +62,13 @@ Briefly, The following signals were used to estimate variables of the feature ve
 * fBodyGyroJerkMag
 
 
-The set of variables that were estimated from these signals and processed by run_analysis.R are: 
+The set of variables that were estimated from these signals and processed by *"run_analysis.R"* are: 
 
 * mean(): Mean value
 * std(): Standard deviation
 * meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable and also processed by run_analysis.R:
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable and also processed by *"run_analysis.R"*:
 
 * GravityMean
 * tBodyAccMean

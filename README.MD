@@ -1,6 +1,6 @@
 ## Introduction
 
-The R script run_analysis.R is used to process the Human Activity Recognition (HAR) data collected from the recordings of subjects performing daily living activities while carrying a waist-mounted smartphone with embedded inertial sensors. 
+The R script *"run_analysis.R"* is used to process the Human Activity Recognition (HAR) data collected from the recordings of subjects performing daily living activities while carrying a waist-mounted smartphone with embedded inertial sensors. 
 
 The experiments have been carried out with a group of 30 volunteers, who performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
@@ -14,28 +14,28 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 After unzip the downloaded file at the working directory, the file folder is named as "UCI HAR Dataset".
 
-The R script run_analysis.R is to create a tidy data set for the average of any variables related to the signal means and standard deviations for each activity and each subject. 
+The script *"run_analysis.R"* is to create a tidy data set for the average of any variables related to the signal means and standard deviations for each activity and each subject. 
 
-The script output a data file "HAR_Summary.txt". Please check the CodeBook for the data information and processing procedure.
+The script output a data file *"HAR_Summary.txt"*. Please check the CodeBook for the data information and processing procedure.
 
 ---
 
-### Use the script run_analysis.R 
+### Use the script *"run_analysis.R"* 
 
-1. Save run_analysis.R in the working directory. 
+1. Save *"run_analysis.R"* in the working directory. 
 
 2. Make sure the dataset "UCI HAR Dataset" saved in the same directory.
 
 3. Make sure the package "dplyr" installed in R. If not, use install.packages("dplyr") to install it.
 
-4. Run the script in R: source("run_analysis.R")
+4. Run the script in R: *source("run_analysis.R")*
 
-5. The output file "HAR_Summary.txt" in the working directory can be read into R using read.table("HAR_Summary.txt", header = TRUE)
+5. The output file *"HAR_Summary.txt"* in the working directory can be read into R using read.table("HAR_Summary.txt", header = TRUE)
 
 ---
 ### Data Processing
 
-The script run_analysis.R takes the following steps to process the data:
+The script *"run_analysis.R"* takes the following steps to process the data:
 
 1. Merges the training and the test sets to create one data set.
 
@@ -47,5 +47,5 @@ The script run_analysis.R takes the following steps to process the data:
 
 5. From the data set in step 4, creates a tidy data set with the average of each variable for each activity and each subject.
 
-__The details of these steps are described in the script run_analysis.R__
+__The details of these steps are described in the script *"run_analysis.R"*__
 
