@@ -1,18 +1,20 @@
 ## Introduction
 
-The R script run_analysis.R is used to summarize the Human Activity Recognition (HAR) data collected from the recordings of subjects performing daily living activities while carrying a waist-mounted smartphone with embedded inertial sensors. 
+The R script run_analysis.R is used to process the Human Activity Recognition (HAR) data collected from the recordings of subjects performing daily living activities while carrying a waist-mounted smartphone with embedded inertial sensors. 
 
-The experiments have been carried out with a group of 30 volunteers, who performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.A full description about the study is available at the website: 
+The experiments have been carried out with a group of 30 volunteers, who performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+
+A full description about the study is available at the website: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-The data can be downloaded:
+Here are the data to be processed:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 After unzip the downloaded file at the working directory, the file folder is named as "UCI HAR Dataset".
 
-The R script run_analysis.R is to create a tidy data set with the average of certian variables for each activity and each subject from the "UCI HAR Dataset". 
+The R script run_analysis.R is to create a tidy data set for the average of any variables related to the signal means and standard deviations for each activity and each subject. 
 
 The script output a data file "HAR_Summary.txt". Please check the CodeBook for the data information and processing procedure.
 
@@ -28,5 +30,5 @@ The script output a data file "HAR_Summary.txt". Please check the CodeBook for t
 
 4. Run the script in R: source("run_analysis.R")
 
-5. The script output the tidy data as "HAR_Summary.txt" in the working directory, which can be read into R using read.table("HAR_Summary.txt", header = TRUE)
+5. The output file "HAR_Summary.txt" in the working directory can be read into R using read.table("HAR_Summary.txt", header = TRUE)
 
