@@ -1,6 +1,6 @@
 ## Introduction
 
-The R script *"run_analysis.R"* is used to process the Human Activity Recognition (HAR) data collected from the recordings of subjects performing daily living activities while carrying a waist-mounted smartphone with embedded inertial sensors. 
+The R script _*"run_analysis.R"*_ is used to process the Human Activity Recognition (HAR) data collected from the recordings of subjects performing daily living activities while carrying a waist-mounted smartphone with embedded inertial sensors. 
 
 The experiments have been carried out with a group of 30 volunteers, who performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
@@ -14,9 +14,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 After unzip the downloaded file at the working directory, the file folder is named as "UCI HAR Dataset".
 
-The script *"run_analysis.R"* is to create a tidy data set for the average of any variables related to the signal means and standard deviations for each activity and each subject. 
+The script _*"run_analysis.R"*_ is to create a tidy data set for the average of any variables related to the signal means and standard deviations for each activity and each subject. 
 
-The script output a data file *"HAR_Summary.txt"*. Please check the CodeBook for the data information and processing procedure.
+The script output a data file _*"HAR_Summary.txt"*_. Please check the CodeBook for the data information and processing procedure.
 
 ---
 
@@ -35,7 +35,7 @@ The script output a data file *"HAR_Summary.txt"*. Please check the CodeBook for
 ---
 ### Data Processing
 
-The script *"run_analysis.R"* takes the following steps to process the data:
+The script _*"run_analysis.R"*_ takes the following steps to process the data:
 
 1. Merges the training and the test sets to create one data set.
 
