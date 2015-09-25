@@ -4,7 +4,7 @@ HAR_Summary.txt list the average of the variables for each subject and activity.
 
 ---
 
-* subject [1 - 30]:ID for 30 volunteers participated in the experiments
+* subject [1 - 30]: ID for 30 volunteers participated in the experiments
 
 * ActivityName [WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING]: Six daily living activities evaluated in the experiments
 
