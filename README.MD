@@ -32,3 +32,22 @@ The script output a data file "HAR_Summary.txt". Please check the CodeBook for t
 
 5. The output file "HAR_Summary.txt" in the working directory can be read into R using read.table("HAR_Summary.txt", header = TRUE)
 
+---
+### Data Processing
+
+The following steps are taken to process the data:
+
+1. Merges the training and the test sets to create one data set.
+
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+ 
+3. Uses descriptive activity names to name the activities in the data set
+
+4. Labels the data set with descriptive variable names. 
+
+5. From the data set in step 4, creates a tidy data set with the average of each variable for each activity and each subject.
+
+__The details of these steps are described in the script run_analysis.R__
+
+
+

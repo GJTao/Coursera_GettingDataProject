@@ -62,13 +62,13 @@ Briefly, The following signals were used to estimate variables of the feature ve
 * fBodyGyroJerkMag
 
 
-The set of variables that were estimated from these signals are: 
+The set of variables that were estimated from these signals and processed by run_analysis.R are: 
 
 * mean(): Mean value
 * std(): Standard deviation
 * meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable and also processed by run_analysis.R:
 
 * GravityMean
 * tBodyAccMean
