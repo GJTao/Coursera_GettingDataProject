@@ -34,6 +34,8 @@ The following summary steps are required to take on the data:
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+The details of these steps are described in the comments of run_analysis.R
+
 ---
 ### Use the script run_analysis.R 
 
@@ -43,8 +45,8 @@ The following summary steps are required to take on the data:
 
 3. Make sure the package "dplyr" installed in R. If not, use install.packages("dplyr") to install it.
 
-4. Run the script: source("run_analysis.R")
+4. Run the script in R: source("run_analysis.R")
 
 5. The script output the tidy data as "HAR_Summary.txt" in the work directory, which can be read into R using read.table("HAR_Summary.txt", header = TRUE)
 
-6. Please check CodeBook for the information of varaibles in "HAR_Summary.txt"
+6. Please check CodeBook for the information of varaibles in "HAR_Summary.txt". 
