@@ -1,6 +1,34 @@
-### Code Book
+## Code Book
 
-HAR_Summary.txt list the average of the variables for each subject and activity. The dataset include 180 rows and 88 columns.
+The script run_analysis.R is to process the data in "UCI HAR Dataset" and output the data to "HAR_Summary.txt" at the working directory.
+
+---
+### UCI HAR Dataset
+
+Please check 'README.txt' in "UCI HAR Dataset" for the information of the files included in the dataset.
+
+---
+### Data Processing
+
+The following steps are taken to process the data:
+
+1. Merges the training and the test sets to create one data set.
+
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+ 
+3. Uses descriptive activity names to name the activities in the data set
+
+4. Labels the data set with descriptive variable names. 
+
+5. From the data set in step 4, creates a tidy data set with the average of each variable for each activity and each subject.
+
+__The details of these steps are described in the script run_analysis.R__
+
+---
+
+### Output File
+
+HAR_Summary.txt lists the average of the variables for each subject and activity. The dataset includes 180 rows and 88 columns.
 
 ---
 
