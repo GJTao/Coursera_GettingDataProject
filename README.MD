@@ -35,7 +35,7 @@ The script output a data file "HAR_Summary.txt". Please check the CodeBook for t
 ---
 ### Data Processing
 
-The following steps are taken to process the data:
+The script run_analysis.R takes the following steps to process the data:
 
 1. Merges the training and the test sets to create one data set.
 
@@ -48,6 +48,4 @@ The following steps are taken to process the data:
 5. From the data set in step 4, creates a tidy data set with the average of each variable for each activity and each subject.
 
 __The details of these steps are described in the script run_analysis.R__
-
-
 
